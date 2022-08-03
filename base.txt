@@ -1,0 +1,35 @@
+uocra
+    apps:
+    -----
+        app_posts
+        app_users
+        app_categories
+        app_comments
+
+    tables:
+    ------
+        Posts
+            *id_post
+            +author
+            title
+            content
+            +category
+            time
+            activate
+        Users
+            *id_user
+            username
+            password
+            email
+            activate
+        Categories
+            *id_category
+            category
+            activate
+        Comments
+            *id_comment
+            +post			
+            +user
+            text
+            date
+            activate
