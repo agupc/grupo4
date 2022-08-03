@@ -36,3 +36,28 @@ uocra
             text
             date
             activate
+
+
+git clone https://github.com/agupc/grupo4.github
+
+cd grupo4
+
+py -m virtualenv .venv
+
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+py manage.py migrate
+
+py manage.py createsuperuser
+
+root / toor
+
+py manage.py runserver
+
+http://127.0.0.1:8000/admin
+
+
+
+
