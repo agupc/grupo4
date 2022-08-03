@@ -18,7 +18,10 @@ uocra
             activate
         Users
             *id_user
-            username
+            firstname
+            lastname
+            dni
+            cuit
             password
             email
             activate
